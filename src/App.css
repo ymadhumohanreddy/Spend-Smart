@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+
+.chart-wrapper {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100vw;
+ height: 90vh;
+}
+.wrapper
+ {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 100vw;
+ height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.chart-container {
+ padding: 2rem;
+ margin: 1rem;
+ border-radius: 0.5rem;
+ box-shadow: var(--shadow);
+ /* Add a box shadow for a "box" effect */
+ background-color: #fff;
+ height: 85%;
+ /* Make both charts the same height */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.line-chart-container {
+ flex: 7;
+ /* 70% width */
+ max-width: 70%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.pie-chart-container {
+ flex: 3;
+ /* 30% width */
+ max-width: 30%;
+ margin-right: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h2 {
+ font-family: "Montserrat", sans-serif;
+ font-size: 24px;
+ /* Adjust the size if needed */
+ margin: 0;
+ /* Optional: to remove any default margin */
+ font-weight: 450;
 }

@@ -1,0 +1,33 @@
+.mycard{
+ box-shadow: var(--shadow);
+ margin: 1rem;
+ border-radius: 0.5rem;
+ min-width: 400px;
+ flex: 1;
+font-family: "Montserrat", sans-serif;
+}
+.ant-card-head-title{
+ margin: 0rem;
+ font-weight: 500;
+}
+.myrow{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 2rem auto;
+ flex-wrap: wrap;
+ gap: 16px;
+}
+.mycard p{
+ margin: 0;
+ font-size: 18px;
+}
+.mycard h2 {
+ font-family: "Montserrat", sans-serif;
+ font-size: 24px;
+ /* Adjust the size if needed */
+ margin: 0;
+ /* Optional: to remove any default margin */
+ font-weight: 450;
+ /* Adjust the font weight to match your design */
+}
