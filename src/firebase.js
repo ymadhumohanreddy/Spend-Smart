@@ -5,7 +5,7 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD85KR-r0_Lfbq-uq_w4yasU8e4v1upXcI",
+  apiKey: "",
   authDomain: "spendsmart-f627d.firebaseapp.com",
   projectId: "spendsmart-f627d",
   storageBucket: "spendsmart-f627d.appspot.com",
